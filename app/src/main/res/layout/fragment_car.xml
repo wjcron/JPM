@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.car.CarFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="60dp" />
+
+    <ImageView
+        android:id="@+id/image_carbuilding"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jadongcha"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+
+
+    <TextView
+        android:id="@+id/text_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <ImageView
+        android:id="@+id/image_carline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        android:src="@drawable/textline"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_car"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/car1f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/car_1f"
+        android:src="@drawable/car1f_image"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car"
+        app:layout_constraintTop_toBottomOf="@id/image_carline" />
+
+    <ImageButton
+        android:id="@+id/car3f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/car_3f"
+        android:src="@drawable/car3f_image"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car"
+        app:layout_constraintTop_toBottomOf="@id/car1f" />
+
+    <ImageButton
+        android:id="@+id/car4f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/car_4f"
+        android:src="@drawable/car4f_image"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car"
+        app:layout_constraintTop_toBottomOf="@id/car3f" />
+
+    <ImageButton
+        android:id="@+id/car5f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/car_5f"
+        android:src="@drawable/car5f_image"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car"
+        app:layout_constraintTop_toBottomOf="@id/car4f" />
+
+    <ImageButton
+        android:id="@+id/car6f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/car_6f"
+        android:src="@drawable/car6f_image"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car"
+        app:layout_constraintTop_toBottomOf="@id/car5f" />
+
+    <ImageButton
+        android:id="@+id/car7f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/car_7f"
+        android:src="@drawable/car7f_image"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car"
+        app:layout_constraintTop_toBottomOf="@id/car6f" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container_car"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

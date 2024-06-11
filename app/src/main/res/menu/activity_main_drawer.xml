@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hongji"
+            android:title="@string/menu_hongji" />
+        <item
+            android:id="@+id/nav_car"
+            android:title="@string/menu_car" />
+        <item
+            android:id="@+id/nav_center"
+            android:title="@string/menu_center" />
+        <item
+            android:id="@+id/nav_dasan"
+            android:title="@string/menu_dasan" />
+
+        <item
+            android:id="@+id/nav_jungbo"
+            android:title="@string/menu_jungbo" />
+
+        <item
+            android:id="@+id/nav_junsan"
+            android:title="@string/menu_junsan" />
+        <item
+            android:id="@+id/nav_limgok"
+            android:title="@string/menu_limgok" />
+
+        <item
+            android:id="@+id/nav_saenghwal"
+            android:title="@string/menu_saenghwal" />
+
+        <item
+            android:id="@+id/nav_sooam"
+            android:title="@string/menu_sooam" />
+
+        <item
+            android:id="@+id/nav_student"
+            android:title="@string/menu_student" />
+
+        <item
+            android:id="@+id/nav_toegye"
+            android:title="@string/menu_toegye" />
+
+        <item
+            android:id="@+id/nav_yulgok"
+            android:title="@string/menu_yulgok" />
+
+        <item
+            android:id="@+id/nav_hanlim"
+            android:title="@string/menu_hanlim" />
+    </group>
+</menu>
